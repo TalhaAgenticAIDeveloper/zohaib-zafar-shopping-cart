@@ -177,39 +177,3 @@
     font-size: 0.75rem;
   }
 }
-  
-
-  .footer-section h4 {
-    font-size: 0.95rem;
-  }
-
-  .footer-section p,
-  .footer-section ul li {
-    font-size: 0.9rem;
-  }
-
-  .footer-bottom {
-    padding: 1.5rem 1rem;
-  }
-
-
-@media (max-width: 480px) {
-  .footer-container {
-    grid-template-columns: 1fr;
-    padding: 1.5rem 1rem;
-    gap: 1.5rem;
-  }
-
-  .footer-section {
-    text-align: center;
-  }
-
-  .social-links {
-    justify-content: center;
-  }
-
-  .footer-bottom {
-    padding: 1rem;
-    font-size: 0.85rem;
-  }
-}
