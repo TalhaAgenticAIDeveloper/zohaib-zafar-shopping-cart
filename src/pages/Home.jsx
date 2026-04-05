@@ -42,11 +42,7 @@ export default function Home({ setCurrentPage }) {
             <h3>Secure Payment</h3>
             <p>Safe and encrypted payment processing</p>
           </div>
-          <div className="feature-card">
-            <span className="feature-icon">🤝</span>
-            <h3>24/7 Support</h3>
-            <p>Always here to help you with any questions</p>
-          </div>
+          
         </div>
       </section>
 

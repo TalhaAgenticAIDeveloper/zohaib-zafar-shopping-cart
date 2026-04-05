@@ -20,9 +20,9 @@ export default function ProductCard({ product }) {
         </div>
         <div className="product-footer">
           <span className="product-price">Rs. {product.price}</span>
-          <button className="buy-btn" onClick={handleWhatsApp}>
+          {/* <button className="buy-btn" onClick={handleWhatsApp}>
             Order Now
-          </button>
+          </button> */}
         </div>
       </div>
     </div>
