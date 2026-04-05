@@ -60,17 +60,12 @@ export default function Guide() {
     {
       question: 'Do you offer international shipping?',
       answer:
-        'Currently, we ship within India only. International shipping will be available soon.',
+        'Currently, we ship within Pakistan only. International shipping will be available soon.',
     },
     {
       question: 'Can I modify my order after placing it?',
       answer:
         'If your order hasn\'t shipped yet, you can modify it by contacting our support team via WhatsApp immediately.',
-    },
-    {
-      question: 'Is payment secure?',
-      answer:
-        'Yes, we use industry-standard encryption and secure payment gateways to protect your financial information.',
     },
     {
       question: 'How can I track my order?',
