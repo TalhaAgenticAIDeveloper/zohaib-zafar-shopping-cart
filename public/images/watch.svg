@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <rect width="200" height="200" fill="#E8F4F8"/>
+  <circle cx="100" cy="100" r="45" fill="#FFD700" stroke="#DAA520" stroke-width="2"/>
+  <circle cx="100" cy="100" r="35" fill="#FFF" stroke="#DAA520" stroke-width="1"/>
+  <line x1="100" y1="100" x2="100" y2="75" stroke="#333" stroke-width="3"/>
+  <line x1="100" y1="100" x2="115" y2="100" stroke="#333" stroke-width="2"/>
+  <circle cx="100" cy="100" r="5" fill="#333"/>
+  <rect x="80" y="40" width="40" height="8" fill="#DAA520" stroke="#8B6F47" stroke-width="1"/>
+  <rect x="80" y="152" width="40" height="8" fill="#DAA520" stroke="#8B6F47" stroke-width="1"/>
+  <text x="100" y="160" font-size="18" font-weight="bold" text-anchor="middle" fill="#DAA520">Watch</text>
+</svg>

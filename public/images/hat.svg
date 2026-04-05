@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <rect width="200" height="200" fill="#E8F4F8"/>
+  <ellipse cx="100" cy="120" rx="50" ry="20" fill="#8B4513" stroke="#654321" stroke-width="2"/>
+  <path d="M60 120Q70 60 100 50Q130 60 140 120" fill="#A0522D" stroke="#654321" stroke-width="2"/>
+  <ellipse cx="100" cy="50" rx="35" ry="20" fill="#CD853F" stroke="#654321" stroke-width="2"/>
+  <line x1="50" y1="120" x2="40" y2="130" stroke="#654321" stroke-width="2"/>
+  <line x1="150" y1="120" x2="160" y2="130" stroke="#654321" stroke-width="2"/>
+  <text x="100" y="160" font-size="20" font-weight="bold" text-anchor="middle" fill="#654321">Hat</text>
+</svg>

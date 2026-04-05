@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <rect width="200" height="200" fill="#E8F4F8"/>
+  <path d="M50 50L60 50L60 100L50 140Z" fill="#1F2937" stroke="#111827" stroke-width="2"/>
+  <path d="M150 50L140 50L140 100L150 140Z" fill="#1F2937" stroke="#111827" stroke-width="2"/>
+  <path d="M60 50L100 40L140 50L140 100L60 100Z" fill="#1F2937" stroke="#111827" stroke-width="2"/>
+  <circle cx="75" cy="80" r="4" fill="#FFD700"/>
+  <circle cx="125" cy="80" r="4" fill="#FFD700"/>
+  <text x="100" y="160" font-size="18" font-weight="bold" text-anchor="middle" fill="#111827">Blazer</text>
+</svg>
