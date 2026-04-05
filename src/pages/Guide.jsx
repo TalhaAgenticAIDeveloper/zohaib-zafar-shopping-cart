@@ -1,6 +1,6 @@
 import '../styles/Guide.css';
 
-export default function Guide() {
+export default function Guide({ setCurrentPage }) {
   const steps = [
     {
       number: 1,
@@ -149,9 +149,12 @@ export default function Guide() {
       <section className="guide-cta">
         <h2>Ready to Get Started?</h2>
         <p>Browse our collection and find exactly what you're looking for</p>
-        <a href="#products" className="cta-link">
+        <button 
+          className="cta-link"
+          onClick={() => setCurrentPage('products')}
+        >
           View Products →
-        </a>
+        </button>
       </section>
     </div>
   );

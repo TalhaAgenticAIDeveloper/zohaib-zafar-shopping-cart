@@ -21,7 +21,7 @@ function AppContent() {
       case 'about':
         return <About />;
       case 'guide':
-        return <Guide />;
+        return <Guide setCurrentPage={setCurrentPage} />;
       default:
         return <Home setCurrentPage={setCurrentPage} />;
     }
