@@ -4,14 +4,7 @@ import '../styles/Products.css';
 export default function Products() {
   const products = [
   
-    {
-      id: 2,
-      name: 'Classic Jeans',
-      size: '30, 32, 34, 36',
-      price: 3499,
-      quantity: '35 in stock',
-      image: '/images/jeans.svg'
-    },
+
     {
       id: 3,
       name: 'Casual Sneakers',
