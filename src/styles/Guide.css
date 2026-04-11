@@ -264,8 +264,33 @@
 /* ===================== */
 
 @media (max-width: 1024px) {
+  .guide-header {
+    padding: 3rem 1.5rem;
+  }
+
+  .steps-section {
+    padding: 3rem 1.5rem;
+  }
+
   .steps-container {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  .guide-features {
+    padding: 3rem 1.5rem;
+  }
+
+  .features-list {
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+  }
+
+  .faq-section {
+    padding: 3rem 1.5rem;
+  }
+
+  .guide-cta {
+    padding: 3rem 1.5rem;
   }
 }
 
@@ -276,14 +301,24 @@
 
   .guide-header h1 {
     font-size: 1.75rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .guide-header p {
+    font-size: 1rem;
   }
 
   .steps-section {
     padding: 2rem 1rem;
   }
 
+  .steps-section h2 {
+    margin-bottom: 2rem;
+  }
+
   .steps-container {
     grid-template-columns: 1fr;
+    gap: 1.5rem;
   }
 
   .step-card {
@@ -293,10 +328,25 @@
 
   .step-icon {
     font-size: 2.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .step-card h3 {
+    font-size: 1.15rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .step-card p {
+    font-size: 0.9rem;
   }
 
   .guide-features {
     padding: 2rem 1rem;
+  }
+
+  .guide-features h2 {
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
   }
 
   .features-list {
@@ -308,41 +358,182 @@
     gap: 1rem;
   }
 
+  .check {
+    font-size: 1.25rem;
+  }
+
+  .feature h4 {
+    font-size: 1rem;
+  }
+
+  .feature p {
+    font-size: 0.9rem;
+  }
+
   .faq-section {
     padding: 2rem 1rem;
   }
 
+  .faq-section h2 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
   .faq-item summary {
     padding: 1.25rem;
+    font-size: 0.95rem;
   }
 
   .faq-item p {
     padding: 0 1.25rem 1.25rem 1.25rem;
+    font-size: 0.9rem;
   }
 
   .guide-cta {
     padding: 2rem 1rem;
   }
+
+  .guide-cta h2 {
+    font-size: 1.5rem;
+  }
+
+  .guide-cta p {
+    font-size: 1rem;
+  }
+
+  .cta-link {
+    padding: 10px 20px;
+    font-size: 0.95rem;
+  }
 }
 
 @media (max-width: 480px) {
+  .guide-header {
+    padding: 1.5rem 1rem;
+  }
+
   .guide-header h1 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    margin-bottom: 0.5rem;
   }
 
-  .step-card h3 {
-    font-size: 1.1rem;
-  }
-
-  .step-card p {
+  .guide-header p {
     font-size: 0.9rem;
   }
 
+  .steps-section {
+    padding: 1.5rem 1rem;
+  }
+
+  .steps-section h2 {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .steps-container {
+    gap: 1rem;
+  }
+
+  .step-number {
+    width: 35px;
+    height: 35px;
+    font-size: 1.1rem;
+    top: -10px;
+  }
+
+  .step-card {
+    padding: 1rem;
+    padding-top: 2rem;
+  }
+
+  .step-icon {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .step-card h3 {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .step-card p {
+    font-size: 0.85rem;
+  }
+
+  .guide-features {
+    padding: 1.5rem 1rem;
+  }
+
   .guide-features h2 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .features-list {
+    gap: 1rem;
+  }
+
+  .feature {
+    gap: 0.75rem;
+  }
+
+  .check {
+    font-size: 1.1rem;
+  }
+
+  .feature h4 {
+    font-size: 0.95rem;
+  }
+
+  .feature p {
+    font-size: 0.8rem;
+  }
+
+  .faq-section {
+    padding: 1.5rem 1rem;
   }
 
   .faq-section h2 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .faq-container {
+    gap: 0.75rem;
+  }
+
+  .faq-item summary {
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+
+  .faq-item summary::after {
+    font-size: 0.7rem;
+  }
+
+  .faq-item p {
+    padding: 0 1rem 1rem 1rem;
+    font-size: 0.8rem;
+  }
+
+  .guide-cta {
+    padding: 1.5rem 1rem;
+  }
+
+  .guide-cta h2 {
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .guide-cta p {
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .cta-link {
+    padding: 10px 16px;
+    font-size: 0.9rem;
+    width: 100%;
   }
 }
+

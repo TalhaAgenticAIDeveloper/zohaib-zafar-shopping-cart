@@ -19,9 +19,9 @@ export default function Guide({ setCurrentPage }) {
     {
       number: 3,
       icon: '💬',
-      title: 'Contact via WhatsApp',
+      title: 'Contact via WhatsApp or Gmail',
       description:
-        'Click the WhatsApp button or "Order Now" button. This will open WhatsApp with a pre-filled message.',
+        'Click the WhatsApp button or Gmail button. This will open WhatsApp or Gmail.',
     },
     {
       number: 4,

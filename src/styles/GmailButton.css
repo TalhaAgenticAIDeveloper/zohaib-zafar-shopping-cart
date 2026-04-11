@@ -9,18 +9,18 @@
   color: white;
   border: none;
   cursor: pointer;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
   display: flex;
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
-  z-index: 999;
+  z-index: 998;
   padding: 0;
 }
 
 .gmail-button:hover {
   background-color: #b71c1c;
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35);
   transform: scale(1.1);
 }
 
@@ -28,16 +28,49 @@
   transform: scale(0.95);
 }
 
+@media (max-width: 1024px) {
+  .gmail-button {
+    width: 55px;
+    height: 55px;
+    right: 18px;
+    bottom: 95px;
+  }
+
+  .gmail-button svg {
+    width: 24px;
+    height: 24px;
+  }
+}
+
 @media (max-width: 768px) {
   .gmail-button {
     width: 50px;
     height: 50px;
     right: 15px;
-    bottom: 85px;
+    bottom: 90px;
+  }
+
+  .gmail-button svg {
+    width: 22px;
+    height: 22px;
+  }
+}
+
+@media (max-width: 480px) {
+  .gmail-button {
+    width: 45px;
+    height: 45px;
+    right: 12px;
+    bottom: 80px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   }
 
   .gmail-button svg {
     width: 20px;
     height: 20px;
+  }
+
+  .gmail-button:hover {
+    transform: scale(1.08);
   }
 }

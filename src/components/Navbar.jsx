@@ -22,7 +22,7 @@ export default function Navbar({ currentPage, setCurrentPage }) {
         </div>
 
         <button
-          className="mobile-menu-toggle"
+          className={`mobile-menu-toggle ${mobileMenuOpen ? 'active' : ''}`}
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           aria-label="Toggle menu"
         >
