@@ -53,6 +53,14 @@ export default function Products() {
       quantity: '15 in stock',
       image: '/images/watch.svg'
     },
+     {
+      id: 9,
+      name: 'Designer Watch',
+      size: 'One Size',
+      price: 12999,
+      quantity: '15 in stock',
+      image: '/images/watch.svg'
+    },
   ];
 
   return (
