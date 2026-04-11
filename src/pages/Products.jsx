@@ -3,14 +3,7 @@ import '../styles/Products.css';
 
 export default function Products() {
   const products = [
-    {
-      id: 1,
-      name: 'Premium T-Shirt',
-      size: 'M, L, XL',
-      price: 1499,
-      quantity: '50 in stock',
-      image: '/images/tshirt.svg'
-    },
+  
     {
       id: 2,
       name: 'Classic Jeans',
