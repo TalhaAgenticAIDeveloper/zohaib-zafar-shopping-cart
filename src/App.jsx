@@ -3,6 +3,7 @@ import { ThemeProvider } from './context/ThemeContext';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import WhatsAppButton from './components/WhatsAppButton';
+import GmailButton from './components/GmailButton';
 import Home from './pages/Home';
 import Products from './pages/Products';
 import About from './pages/About';
@@ -33,8 +34,9 @@ function AppContent() {
       <main className="main-content">
         {renderPage()}
       </main>
-      <Footer />
+      <Footer setCurrentPage={setCurrentPage} />
       <WhatsAppButton />
+      <GmailButton />
     </div>
   );
 }

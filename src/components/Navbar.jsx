@@ -18,7 +18,7 @@ export default function Navbar({ currentPage, setCurrentPage }) {
       <div className="navbar-container">
         <div className="navbar-logo">
           <span className="logo-icon">✨</span>
-          <span>ModernShop</span>
+          <span>Nayab Jewellery</span>
         </div>
 
         <button

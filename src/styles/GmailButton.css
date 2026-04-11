@@ -1,0 +1,43 @@
+.gmail-button {
+  position: fixed;
+  right: 20px;
+  bottom: 100px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #d32f2f;
+  color: white;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  z-index: 999;
+  padding: 0;
+}
+
+.gmail-button:hover {
+  background-color: #b71c1c;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  transform: scale(1.1);
+}
+
+.gmail-button:active {
+  transform: scale(0.95);
+}
+
+@media (max-width: 768px) {
+  .gmail-button {
+    width: 50px;
+    height: 50px;
+    right: 15px;
+    bottom: 85px;
+  }
+
+  .gmail-button svg {
+    width: 20px;
+    height: 20px;
+  }
+}

@@ -1,7 +1,14 @@
 import '../styles/Footer.css';
 
-export default function Footer() {
+export default function Footer({ setCurrentPage }) {
   const currentYear = new Date().getFullYear();
+
+  const handleNavigation = (page) => {
+    if (setCurrentPage) {
+      setCurrentPage(page);
+      window.scrollTo(0, 0);
+    }
+  };
 
   return (
     <footer className="footer">
@@ -11,19 +18,20 @@ export default function Footer() {
             <span className="brand-icon">✨</span>
             <h3>ModernShop</h3>
             <p>Premium Quality Products</p>
+            <p className="footer-address">📍 Chowk Pakpattan, Tehsil and District Sahwal</p>
           </div>
 
           <div className="footer-links">
-            <a href="#products">Products</a>
-            <a href="#about">About</a>
-            <a href="#guide">Guide</a>
-            <a href="mailto:info@modernshop.com">Contact</a>
+            <button onClick={() => handleNavigation('products')} className="footer-link-btn">Products</button>
+            <button onClick={() => handleNavigation('about')} className="footer-link-btn">About</button>
+            <button onClick={() => handleNavigation('guide')} className="footer-link-btn">Guide</button>
+    
           </div>
 
           <div className="footer-social">
-            <a href="https://wa.me/923038297337" target="_blank" rel="noopener noreferrer" title="WhatsApp">📱</a>
+            <a href="https://wa.me/923096517621" target="_blank" rel="noopener noreferrer" title="WhatsApp">📱</a>
+            <a href="mailto:nayabjewellery90@gmail.com" target="_blank" rel="noopener noreferrer" title="Gmail">✉️</a>
             <a href="#" title="Instagram">📷</a>
-            <a href="#" title="email">✉️</a>
           </div>
         </div>
 
